@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestDayTemplate {
 
-    @Test
+    //@Test
     public void part1() {
         DayTemplate day = new DayTemplate();
         long result = day.part1("testinputTemplate.txt");
@@ -15,7 +15,7 @@ public class TestDayTemplate {
         System.out.println(day.part1("inputTemplate.txt"));
     }
 
-    @Test
+    //@Test
     public void part2() {
         DayTemplate day = new DayTemplate();
         long result = day.part2("testinputTemplate.txt");

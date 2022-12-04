@@ -21,7 +21,6 @@ class TestDay4 {
         Day4 day = new Day4();
         long result = day.part2("testinput4.txt");
         assertEquals(4, result);
-        System.out.println(day.part2("input4.txt"));
         result = day.part2("input4.txt");
         assertEquals(770, result);
     }

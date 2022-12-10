@@ -5,21 +5,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestDayTemplate {
+class TestDayTemplate {
 
-    //@Test
-    public void part1() {
+    @Test
+    void part1() {
         DayTemplate day = new DayTemplate();
-        long result = day.part1("testinputTemplate.txt");
-        assertEquals(0, result);
-        System.out.println(day.part1("inputTemplate.txt"));
+        assertEquals(0, day.part1("testinputTemplate.txt"));
+        assertEquals(0, day.part1("inputTemplate.txt"));
     }
 
-    //@Test
-    public void part2() {
+    @Test
+    void part2() {
         DayTemplate day = new DayTemplate();
-        long result = day.part2("testinputTemplate.txt");
-        assertEquals(0, result);
-        System.out.println(day.part2("inputTemplate.txt"));
+        assertEquals(0, day.part2("testinputTemplate.txt"));
+        assertEquals(0, day.part2("inputTemplate.txt"));
     }
 }
